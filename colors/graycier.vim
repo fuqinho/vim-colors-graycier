@@ -24,14 +24,16 @@ endif
 hi Cursor 		guifg=NONE    guibg=#757575 gui=none
 hi Normal 		guifg=#505050 guibg=#eeeeee gui=none
 hi NonText 		guifg=#808080 guibg=#ffffff gui=none
-hi LineNr 		guifg=#f0f1f2 guibg=#d2d2d2 gui=none
+hi LineNr 		guifg=#d0d0d0 guibg=#e8e8e8 gui=none
 hi StatusLine 	guifg=#f6f3e8 guibg=#444444 gui=none
 hi StatusLineNC guifg=#857b6f guibg=#444444 gui=none
-hi VertSplit 	guifg=#444444 guibg=#444444 gui=none
+hi VertSplit 	guifg=#444444 guibg=#d2d2d2 gui=none
 hi Folded 		guibg=#384048 guifg=#a0a8b0 gui=none
 hi Title		guifg=#f09090 guibg=NONE	gui=bold
 hi Visual		guifg=#f6f3e8 guibg=#444444 gui=none
 hi SpecialKey	guifg=#808080 guibg=#343434 gui=none
+hi SignColumn   guibg=#e8e8e8
+hi Error        guifg=#ee2222 guibg=#ffdddd
 
 " Syntax highlighting
 hi Comment 		guifg=#b5b5b5 gui=none
